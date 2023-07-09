@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #F9FAF8;
 }
 
@@ -115,7 +115,7 @@ div.hero > div{
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 2rem 10rem;
+    padding: 2rem 15rem;
     display: flex;
     flex-direction: column;
 }
