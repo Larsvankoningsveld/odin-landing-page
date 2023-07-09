@@ -128,7 +128,17 @@ button {
 .cta {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 2rem 5rem;
     display: flex;
     justify-content: space-between;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10rem;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
