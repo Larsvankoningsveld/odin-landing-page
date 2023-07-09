@@ -8,7 +8,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 10rem;
     background-color: #1F2937;
 }
 
@@ -26,3 +26,26 @@ nav a, nav div a{
     gap: 1rem;
 }
 
+.hero {
+    background-color:#1F2937;
+    display: flex;
+    padding: 0 10rem;
+}
+
+div.hero > div{
+    flex: 1;
+    padding: 5rem 0;
+}
+
+.hero-title{
+    color:F9FAF8;
+    font-weight:bolder;
+    font-size:3rem;
+    margin: 0;
+}
+
+.hero-image{
+    flex: 1;
+    width: 500px;
+    padding: 5rem;
+}
