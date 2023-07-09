@@ -120,3 +120,15 @@ button {
    align-self: end;
    font-size:1.5rem;
 }
+
+.cta-container{
+    padding: 3rem 10rem;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
