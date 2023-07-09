@@ -1,8 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #F9FAF8;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -55,23 +60,33 @@ div.hero > div{
     padding: 5rem 0;
 }
 
-button {
+.button-1 {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.25rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 5px;
     border-style: none;
+}
+.button-2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    align-self: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 2rem 10rem;
+    padding: 5rem 10rem;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .header {
@@ -95,7 +110,7 @@ button {
 }
 
 .card-image{
-    width:300px;
+    width:200px;
 }
 
 .quote-section {
@@ -122,13 +137,13 @@ button {
 }
 
 .cta-container{
-    padding: 3rem 10rem;
+    padding: 5rem 10rem;
 }
 
 .cta {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     display: flex;
     justify-content: space-between;
 }
